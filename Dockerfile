@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/rhel7/rhel
-MAINTAINER Test1
+MAINTAINER Test2
 # Add Web server, update image, and clear cache
 RUN yum -y install httpd && yum -y update; yum clean all
 # Add some data to web server
